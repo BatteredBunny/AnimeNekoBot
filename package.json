@@ -1,0 +1,34 @@
+{
+  "name": "animenekobot",
+  "version": "1.0.0",
+  "description": "Sends reaction gifs on telegram using nekods.life api",
+  "main": "index.ts",
+  "dependencies": {
+    "@types/node": "^14.10.1",
+    "nekos.life": "^2.0.7",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayes-web/AnimeNekoBot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "nekos-life",
+    "npm",
+    "javascript",
+    "neko"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayes-web/AnimeNekoBot/issues"
+  },
+  "homepage": "https://github.com/ayes-web/AnimeNekoBot#readme"
+}
