@@ -50,7 +50,7 @@ bot.help((ctx) => {
 	return ctx.replyWithMarkdown(help)
 }).catch((err) => { console.log(err) });
 
-var commands = ['smug','baka','tickle','slap','poke','pat','neko','nekogif','meow','lizard','kiss','hug','foxgirl','feed','cuddle','kemonomimi', 'holo', 'woof', 'wallpaper', 'goose', 'gecg', 'avatar', 'waifu']
+var commands = ['smug','baka','tickle','slap','poke','pat','neko','nekoGif','meow','lizard','kiss','hug','foxgirl','feed','cuddle','kemonomimi', 'holo', 'woof', 'wallpaper', 'goose', 'gecg', 'avatar', 'waifu']
 bot.command((ctx) => {
 	var command = ctx.message.text.replace(/ /g,'');
 	var command_clean = command.substring(1);
